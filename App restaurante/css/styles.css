@@ -191,12 +191,13 @@ main {
         flex-direction: column;
         background-size: cover;
         gap: 20px;
+        
 
 
         .resto {
             height: 200px;
-            width: 300px;
-            background-color: aqua;
+            width: 450px;
+            background-color: white;
             color: white;
             font-size: 30px;
             position: relative;
@@ -209,7 +210,7 @@ main {
                 width: 100%;
                 }
                 position: absolute;
-                background-color: yellow;
+                background-color: white;
                 object-fit: cover;
                 background-size: cover;
                 height: 100%;
@@ -218,31 +219,43 @@ main {
             }
 
             .datos-resto {
-                position: absolute;
-                display: flex;
-                flex-direction: column;
-                background-color:white;
+                background-color: white;
                 height: 100%;
                 width: 60%;
+                position: absolute;
                 right: 0;
                 border-bottom-left-radius: 20px;
-                box-shadow: 0 0 15px -2px;
+                box-shadow: 0 0 10px -2px black;
+                display: flex;
+                flex-direction: column;
 
                 .titulo_resto{
-                    color: black;
+                    /*color: black;
                     display: flex;
                     height: 50px;
                     width: 300px;
                     padding-top: 3px;
                     padding-left: 3px;
+                    */
+
+                    width: 250px;
+                    height: 20px;
+                    display: flex;
+                    font-size: 20px;
+                    flex: 1;
+                    padding-top: 10px;
+                    padding-left: 2%;
+                    color: black;
                 }
                 .texto_resto{
+                    width: 250px;
+                    height: 20px;
+                    display: flex;
                     color: gray;
-                    width: 100%;
-                    height: 100px;
-                    background-color:white;
-                    padding-top: 0px;
-                    left: 0;
+                    font-size: 20px;
+                    flex: 1;
+                    padding-left: 2%;
+                    
                 }
                 .puntuaciones{
                     font-size: 30px;
@@ -286,6 +299,7 @@ main {
     }
 
 }
+
 
 .resto_image {
     height: 40%;
